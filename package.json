@@ -1,0 +1,21 @@
+{
+  "name": "bemquery",
+  "version": "1.0.0",
+  "description": "BEMQuery",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "author": "Mikulew",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0"
+  },
+  "dependencies": {
+    "chalk": "^6.0.0"
+  }
+}
