@@ -5,7 +5,7 @@ const Logger = {
     console.log(chalk.green.bold('OK: '), msg);
   },
   error(msg) {
-    console.log(chalk.red.bold('Error: ', msg));
+    console.log(chalk.red.bold('Error: '), msg);
   },
   warning(msg) {
     console.warn(chalk.yellow.bold('Warning: '), msg);
@@ -15,7 +15,4 @@ const Logger = {
   },
 };
 
-Logger.success('Logger works!');
-Logger.warning('Achtung!');
-Logger.error('Oops... Something went wrong');
-Logger.info('Just kidding ^^');
+export default Logger;
